@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Materialize
+@import '~materialize-css/dist/css/materialize.css';
+
+// Material icons
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+table > tbody > tr:nth-child(2n) {
+    background-color: #fff8e1;
+}
+
+label.red-text {
+    font-size: 12px;
+}
+
+table > thead > tr > td {
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none;
+}
